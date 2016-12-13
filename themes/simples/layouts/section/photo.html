@@ -1,0 +1,30 @@
+
+{{ partial "header.html" .}}
+
+<link href="/css/photo.css" rel="stylesheet" />
+
+<h2> photography </h2>
+
+<p>No artsy fartsy stuff here.</p>
+
+<p>I try to take photos that look pretty hanging on a wall and that show a scene enhanced by the camera that you don't normaly see with a naked eye.</p>
+
+<div>
+    <h3>Galleries</h3>
+    <div class="clearfix">
+        {{- range first 10 .Data.Pages}}
+            {{- if eq .Type "photo"}}
+                <div class="polaroid_outer">
+                    <div class="polaroid_picture">
+                        <img src={{ .Params.thumbnail}} >
+                    </div>
+                    <div class="polaroid_label">
+                        {{ .Title }}
+                    </div>
+                </div>
+            {{- end -}}
+        {{- end }}
+    </dev>
+<div>
+
+{{ partial "footer.html" . -}}

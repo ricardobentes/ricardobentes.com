@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ricardo bentes</title>
+    <link>http://ricardobentes.com/index.xml</link>
+    <description>Recent content on ricardo bentes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Dec 2016 23:06:49 +0000</lastBuildDate>
+    <atom:link href="http://ricardobentes.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>niagara</title>
+      <link>http://ricardobentes.com/photo/Niagara/</link>
+      <pubDate>Tue, 13 Dec 2016 23:06:49 +0000</pubDate>
+      
+      <guid>http://ricardobentes.com/photo/Niagara/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>http://ricardobentes.com/dev/project/</link>
+      <pubDate>Mon, 12 Dec 2016 22:43:39 +0000</pubDate>
+      
+      <guid>http://ricardobentes.com/dev/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chicago</title>
+      <link>http://ricardobentes.com/photo/chicago/</link>
+      <pubDate>Mon, 12 Dec 2016 20:36:48 +0000</pubDate>
+      
+      <guid>http://ricardobentes.com/photo/chicago/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>finland</title>
+      <link>http://ricardobentes.com/photo/finland/</link>
+      <pubDate>Mon, 12 Dec 2016 20:36:38 +0000</pubDate>
+      
+      <guid>http://ricardobentes.com/photo/finland/</guid>
+      <description>
+
+&lt;h1 id=&#34;finland-2015&#34;&gt;Finland 2015&lt;/h1&gt;
+
+&lt;p&gt;We travelled to Finland with &lt;strong&gt;Louletano&lt;/strong&gt; to participate in &lt;a href=&#34;http:\www.google.com&#34;&gt;Gymnaestrada 2015&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This is a list:
+  * a
+  * B
+  * C&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>firstArticle</title>
+      <link>http://ricardobentes.com/blog/firstArticle/</link>
+      <pubDate>Mon, 12 Dec 2016 20:19:28 +0000</pubDate>
+      
+      <guid>http://ricardobentes.com/blog/firstArticle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about me</title>
+      <link>http://ricardobentes.com/About/</link>
+      <pubDate>Sun, 11 Dec 2016 22:30:31 +0000</pubDate>
+      
+      <guid>http://ricardobentes.com/About/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://ricardobentes.com/images/ricardo.png&#34; alt=&#34;Ricardo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hi! I am Ricardo, glad you stopped by!&lt;/p&gt;
+
+&lt;p&gt;Software developer by trade and curious by nature, I like to spend my free time learning about whatever pulls my attention in that moment.&lt;/p&gt;
+
+&lt;p&gt;My main interests are interesting stuff.&lt;/p&gt;
+
+&lt;p&gt;If you want to know more about me, feel free to check my CV, my flickr photography page, my GitHub project page or just drop me an email and say hi.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

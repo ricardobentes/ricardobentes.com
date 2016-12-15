@@ -6,43 +6,56 @@
     <description>Recent content in Photo-rsses on ricardo bentes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Dec 2016 23:06:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Dec 2016 23:42:54 +0000</lastBuildDate>
     <atom:link href="http://ricardobentes.com/photo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>niagara</title>
-      <link>http://ricardobentes.com/photo/Niagara/</link>
-      <pubDate>Tue, 13 Dec 2016 23:06:49 +0000</pubDate>
+      <title>hdr</title>
+      <link>http://ricardobentes.com/photo/hdr/</link>
+      <pubDate>Thu, 15 Dec 2016 23:42:54 +0000</pubDate>
       
-      <guid>http://ricardobentes.com/photo/Niagara/</guid>
-      <description></description>
+      <guid>http://ricardobentes.com/photo/hdr/</guid>
+      <description>&lt;p&gt;HDR stands for High Dynamic Range&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>chicago</title>
-      <link>http://ricardobentes.com/photo/chicago/</link>
-      <pubDate>Mon, 12 Dec 2016 20:36:48 +0000</pubDate>
+      <title>long exposure</title>
+      <link>http://ricardobentes.com/photo/le/</link>
+      <pubDate>Thu, 15 Dec 2016 23:41:49 +0000</pubDate>
       
-      <guid>http://ricardobentes.com/photo/chicago/</guid>
-      <description></description>
+      <guid>http://ricardobentes.com/photo/le/</guid>
+      <description>&lt;p&gt;Loooooong exposures&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>finland</title>
-      <link>http://ricardobentes.com/photo/finland/</link>
-      <pubDate>Mon, 12 Dec 2016 20:36:38 +0000</pubDate>
+      <title>black &amp; white</title>
+      <link>http://ricardobentes.com/photo/bw/</link>
+      <pubDate>Thu, 15 Dec 2016 22:47:02 +0000</pubDate>
       
-      <guid>http://ricardobentes.com/photo/finland/</guid>
-      <description>
-
-&lt;h1 id=&#34;finland-2015&#34;&gt;Finland 2015&lt;/h1&gt;
-
-&lt;p&gt;We travelled to Finland with &lt;strong&gt;Louletano&lt;/strong&gt; to participate in &lt;a href=&#34;http:\www.google.com&#34;&gt;Gymnaestrada 2015&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;This is a list:
-  * a
-  * B
-  * C&lt;/p&gt;
+      <guid>http://ricardobentes.com/photo/bw/</guid>
+      <description>&lt;p&gt;basically gray&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>nocturnal</title>
+      <link>http://ricardobentes.com/photo/night/</link>
+      <pubDate>Thu, 15 Dec 2016 22:46:53 +0000</pubDate>
+      
+      <guid>http://ricardobentes.com/photo/night/</guid>
+      <description>&lt;p&gt;The night is dark and full of terrors&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>travel</title>
+      <link>http://ricardobentes.com/photo/travel/</link>
+      <pubDate>Thu, 15 Dec 2016 22:07:17 +0000</pubDate>
+      
+      <guid>http://ricardobentes.com/photo/travel/</guid>
+      <description>&lt;p&gt;Catch me if you can&lt;/p&gt;
 </description>
     </item>
     

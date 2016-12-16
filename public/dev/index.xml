@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dev-rsses on ricardo bentes</title>
-    <link>http://ricardobentes.com/dev/index.xml</link>
+    <link>http://ricardobentes.github.io/dev/index.xml</link>
     <description>Recent content in Dev-rsses on ricardo bentes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 Dec 2016 22:43:39 +0000</lastBuildDate>
-    <atom:link href="http://ricardobentes.com/dev/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ricardobentes.github.io/dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>project</title>
-      <link>http://ricardobentes.com/dev/project/</link>
+      <link>http://ricardobentes.github.io/dev/project/</link>
       <pubDate>Mon, 12 Dec 2016 22:43:39 +0000</pubDate>
       
-      <guid>http://ricardobentes.com/dev/project/</guid>
+      <guid>http://ricardobentes.github.io/dev/project/</guid>
       <description></description>
     </item>
     

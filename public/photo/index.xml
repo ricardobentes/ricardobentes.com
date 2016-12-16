@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photo-rsses on ricardo bentes</title>
-    <link>http://ricardobentes.com/photo/index.xml</link>
+    <link>http://ricardobentes.github.io/photo/index.xml</link>
     <description>Recent content in Photo-rsses on ricardo bentes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Dec 2016 23:42:54 +0000</lastBuildDate>
-    <atom:link href="http://ricardobentes.com/photo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://ricardobentes.github.io/photo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>hdr</title>
-      <link>http://ricardobentes.com/photo/hdr/</link>
+      <link>http://ricardobentes.github.io/photo/hdr/</link>
       <pubDate>Thu, 15 Dec 2016 23:42:54 +0000</pubDate>
       
-      <guid>http://ricardobentes.com/photo/hdr/</guid>
+      <guid>http://ricardobentes.github.io/photo/hdr/</guid>
       <description>&lt;p&gt;HDR stands for High Dynamic Range&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>long exposure</title>
-      <link>http://ricardobentes.com/photo/le/</link>
+      <link>http://ricardobentes.github.io/photo/le/</link>
       <pubDate>Thu, 15 Dec 2016 23:41:49 +0000</pubDate>
       
-      <guid>http://ricardobentes.com/photo/le/</guid>
+      <guid>http://ricardobentes.github.io/photo/le/</guid>
       <description>&lt;p&gt;Loooooong exposures&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>black &amp; white</title>
-      <link>http://ricardobentes.com/photo/bw/</link>
+      <link>http://ricardobentes.github.io/photo/bw/</link>
       <pubDate>Thu, 15 Dec 2016 22:47:02 +0000</pubDate>
       
-      <guid>http://ricardobentes.com/photo/bw/</guid>
+      <guid>http://ricardobentes.github.io/photo/bw/</guid>
       <description>&lt;p&gt;basically gray&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>nocturnal</title>
-      <link>http://ricardobentes.com/photo/night/</link>
+      <link>http://ricardobentes.github.io/photo/night/</link>
       <pubDate>Thu, 15 Dec 2016 22:46:53 +0000</pubDate>
       
-      <guid>http://ricardobentes.com/photo/night/</guid>
+      <guid>http://ricardobentes.github.io/photo/night/</guid>
       <description>&lt;p&gt;The night is dark and full of terrors&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>travel</title>
-      <link>http://ricardobentes.com/photo/travel/</link>
+      <link>http://ricardobentes.github.io/photo/travel/</link>
       <pubDate>Thu, 15 Dec 2016 22:07:17 +0000</pubDate>
       
-      <guid>http://ricardobentes.com/photo/travel/</guid>
+      <guid>http://ricardobentes.github.io/photo/travel/</guid>
       <description>&lt;p&gt;Catch me if you can&lt;/p&gt;
 </description>
     </item>

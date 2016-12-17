@@ -1,0 +1,45 @@
+.project_outer{
+    width: 398px;
+    height: 150px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-radius: 3px;
+    float: left;
+    overflow: hidden;
+    margin: 35px;
+    color: black;
+}
+
+
+.project_thumbnail {
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    float: left; 
+    background: darkgray;
+    border-radius: 3px;
+}
+
+.thumbnail {
+    width: 130px;
+    height: 130px;
+}
+
+.project_title {
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+.project_blurb {
+    margin: 10px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.title {
+    height: 130px;
+    clear: right;
+    vertical-align: text-bottom; 
+}

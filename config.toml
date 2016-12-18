@@ -1,4 +1,4 @@
-theme = "simples"
+theme = "simples_bootstrap"
 languageCode = "en-us"
 baseurl = "http://ricardobentes.github.io/"
 title = "ricardo bentes"

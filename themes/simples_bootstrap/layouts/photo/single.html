@@ -1,0 +1,12 @@
+{{ partial "header.html" .}}
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<h1>{{ .Title }} </h1>
+
+{{ .Content }}
+
+    <a data-flickr-embed="true" href= {{ .Params.albumlink }} title={{ .Title }}>
+        <img src={{ .Params.thumbnail }} width={{ 900}} alt={{ .Title }}>
+    </a>
+
+{{ partial "footer.html" . -}}

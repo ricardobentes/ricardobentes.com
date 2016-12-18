@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    font-family: Abel;
+    font-size:24px;
+    color: black;
+    /* USE ONLY IF USING NAVBAR FIXED
+    padding-top: 50px;
+    padding-bottom: 75px;*/
+}
+
+.navbar-brand{
+    font-family: Abel;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+}
+
+h1{
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h2, h3{
+    font-style: normal;
+    font-weight: 100;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.icon:hover{
+    box-shadow: 0px 0px 10px white;
+    border-radius: 15px;
+}

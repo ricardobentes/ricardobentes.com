@@ -1,0 +1,12 @@
+{{ partial "header.html" .}}
+<link href="/css/dev.css" rel="stylesheet" />
+
+<div>
+    <div>
+        <h1>{{ .Title }} </h1>
+    </div>
+</div>
+
+{{ .Content }}
+
+{{ partial "footer.html" . -}}

@@ -1,0 +1,32 @@
+
+{{ partial "header.html" .}}
+<link href="/css/dev.css" rel="stylesheet" />
+
+<h2> dev stuff </h2>
+
+<p>Projects and experiments</p>
+
+<div class="row">
+    
+    {{- range first 10 .Data.Pages}}
+        {{- if eq .Type "dev"}}
+        <div class="col-md-6">
+            <a href={{ .Permalink}} title= {{ .Title}}>
+                <div class="project_outer">
+                    <div class="project_thumbnail">
+                        <img src={{ .Params.thumbnail}} class="thumbnail">
+                    </div>
+                    <div class="project_title">
+                        {{ .Title }}
+                    </div>
+                    <div class="project_blurb">
+                        {{ .Params.blurb }}
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{- end -}}
+    {{- end }}
+</div>
+
+{{ partial "footer.html" . -}}

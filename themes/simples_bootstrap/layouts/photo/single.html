@@ -1,12 +1,39 @@
 {{ partial "header.html" .}}
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
+<link rel="stylesheet" href="/css/blueimp-gallery.min.css">
 <h1>{{ .Title }} </h1>
 
 {{ .Content }}
 
-    <a data-flickr-embed="true" href= {{ .Params.albumlink }} title={{ .Title }}>
-        <img src={{ .Params.thumbnail }} width={{ 900}} alt={{ .Title }}>
-    </a>
+<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title">Long Exposures</h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
 
+<div id="links">
+    <a href="/images/photo/longExposure/midnight_oil.jpg" title="burning the midnight oil">
+        <!--<img src="/images/photo/longExposure/thumbnails/midnight_oil.jpg" alt="burning the midnight oil">-->
+    </a>
+    <a href="/images/photo/longExposure/milky_way.jpg" title="milky way">
+        <!--<img src="/images/photo/longExposure/thumbnails/milky_way.jpg" alt="milky way">-->
+    </a>
+    <a href="/images/photo/longExposure/rooted.jpg" title="rooted">
+        <!--<img src="/images/photo/longExposure/thumbnails/rooted.jpg" alt="rooted">-->
+    </a>
+</div>
+
+<script src="/js/blueimp-gallery.min.js"></script>
+<script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>
 {{ partial "footer.html" . -}}

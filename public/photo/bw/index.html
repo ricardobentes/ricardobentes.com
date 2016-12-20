@@ -45,17 +45,44 @@
     </div>
 
     <div class="container">
-<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-
+<link rel="stylesheet" href="/css/blueimp-gallery.min.css">
 <h1>black &amp; white </h1>
 
 <p>basically gray</p>
 
 
-    <a data-flickr-embed="true" href= https://www.flickr.com/photos/rbentes/albums/72157676111532612 title=black&#32;&amp;&#32;white>
-        <img src=https://c1.staticflickr.com/5/4050/4318021831_34fcd69565_z.jpg width=900 alt=black&#32;&amp;&#32;white>
-    </a>
 
+<div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title">Long Exposures</h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+    <a href="/images/photo/longExposure/midnight_oil.jpg" title="burning the midnight oil">
+        
+    </a>
+    <a href="/images/photo/longExposure/milky_way.jpg" title="milky way">
+        
+    </a>
+    <a href="/images/photo/longExposure/rooted.jpg" title="rooted">
+        
+    </a>
+</div>
+
+<script src="/js/blueimp-gallery.min.js"></script>
+<script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-gallery-carousel',
+        carousel: true
+    }
+);
+</script>
             
         </div>
 

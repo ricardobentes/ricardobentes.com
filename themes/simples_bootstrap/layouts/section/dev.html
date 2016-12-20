@@ -11,7 +11,7 @@
     {{- range first 10 .Data.Pages}}
         {{- if eq .Type "dev"}}
         <a href={{ .Permalink}} title= {{ .Title}}>
-            <div class="col-md-5 project_outer">
+            <div class="col-xs-11 col-sm-11 col-md-5 col-lg-5 project_outer">
                 <div class="project_thumbnail">
                     <img src={{ .Params.thumbnail}} class="thumbnail">
                 </div>
@@ -22,7 +22,9 @@
                     {{ .Params.blurb }}
                 </div>
             </div>
+            
         </a>
+               
         {{- end -}}
     {{- end }}
 </div>

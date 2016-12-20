@@ -1,5 +1,5 @@
 .project_outer{
-    height: 150px;
+    min-height: 150px;
     border-width: 1px;
     border-style: solid;
     border-color: #e5e6e9 #dfe0e4 #d0d1d5;
@@ -7,16 +7,15 @@
     color: black;
     box-shadow: 3px 3px 3px lightgray;
     margin:10px;
+    padding: 0px;
 }
 
 
 .project_thumbnail {
     width: 130px;
     height: 130px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    float: left; 
+    margin: 8px;
+    float: left;
     background: darkgray;
     border-radius: 3px;
 }
@@ -41,5 +40,5 @@
 .title {
     height: 130px;
     clear: right;
-    vertical-align: text-bottom; 
+    vertical-align: text-bottom;
 }

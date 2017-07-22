@@ -1,7 +1,7 @@
 body {
     background-color: white;
     font-family: Abel;
-    font-size:24px;
+    font-size:20px;
     color: black;
     /* USE ONLY IF USING NAVBAR FIXED
     padding-top: 50px;
@@ -11,14 +11,13 @@ body {
 .navbar-brand{
     font-family: Abel;
     font-style: normal;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 100;
     color: white;
 }
 
 h1{
     font-style: normal;
-    font-size: 50px;
     font-weight: 100;
 }
 

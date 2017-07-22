@@ -15,17 +15,10 @@
 </div>
 
 <div id="links">
-    <a href="/images/photo/longExposure/midnight_oil.jpg" title="burning the midnight oil">
-        <!--<img src="/images/photo/longExposure/thumbnails/midnight_oil.jpg" alt="burning the midnight oil">-->
-    </a>
-    <a href="/images/photo/longExposure/milky_way.jpg" title="milky way">
-        <!--<img src="/images/photo/longExposure/thumbnails/milky_way.jpg" alt="milky way">-->
-    </a>
-    <a href="/images/photo/longExposure/rooted.jpg" title="rooted">
-        <!--<img src="/images/photo/longExposure/thumbnails/rooted.jpg" alt="rooted">-->
-    </a>
+    {{- range .Params.photos}}
+        <a href="{{ . }}"/>
+    {{- end}}
 </div>
-
 <script src="/js/blueimp-gallery.min.js"></script>
 <script>
 blueimp.Gallery(

@@ -2,9 +2,9 @@
 {{ partial "header.html" .}}
 <link href="/css/dev.css" rel="stylesheet" />
 
-<h2> dev stuff </h2>
+<h1> projects </h1>
 
-<p>Projects and experiments</p>
+<p>Personal projects and experiments</p>
 
 <div class="row">
     
@@ -29,5 +29,7 @@
         {{- end -}}
     {{- end }}
 </div>
+
+{{ partial "disqus.html" . -}}
 
 {{ partial "footer.html" . -}}

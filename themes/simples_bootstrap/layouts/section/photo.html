@@ -3,14 +3,14 @@
 <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
 <link href="/css/photo.css" rel="stylesheet" />
 
-<h2> photography </h2>
+<h1> photography </h1>
 
-<p>No artsy fartsy stuff here.</p>
+<p>Some photos I've been taking through the years.</p>
+<p>I specially enjoy nocturnal and long exposure photos. 
+    I believe they expose a different perspective of the world around us, showing that nothing is as dark or still as it may seem.</p>
+<p>Hope you enjoy them! :)</p>
 
-<p>I try to take photos that look pretty hanging on a wall and that show a scene enhanced by the camera that you don't normaly see with a naked eye.</p>
-
-
-<h3>Galleries</h3>
+<h2>albums</h2>
 
 <div class="row">
     {{- range first 10 .Data.Pages}}
@@ -31,5 +31,6 @@
     {{- end }}
 </div>
 
+{{ partial "disqus.html" . -}}
 
 {{ partial "footer.html" . -}}

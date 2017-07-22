@@ -1,4 +1,4 @@
 +++
 thumbnail = ""
-albumLink = ""
+photos = [""]
 +++
